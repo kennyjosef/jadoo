@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo2 from '../../Assest/logo2.png';
+import Logo3 from '../../Assest/playbtn.png';
 import classes from './hero.module.css';
 const Hero = () => {
     return ( 
@@ -14,7 +15,8 @@ const Hero = () => {
                     <button>
                         Find out more
                     </button>
-                    <div>
+                    <div className={classes.playbtn}>
+                        <img src={Logo3} alt="pic"/>
                         <p>Play Demo</p>
                     </div>
                 </div>

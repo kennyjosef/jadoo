@@ -51,13 +51,13 @@
  @media screen and (max-width:768px) {
     .hamburger{
         display: block;
-        padding-right: 20px;
+        /* padding-right: 20px; */
 
         border: 1px solid rgb(0, 255, 55);
         
     }
     .header img{
-        padding-left: 20px;
+        /* padding-left: 20px; */
         border: 1px solid red;
 
     }
@@ -69,7 +69,6 @@
         z-index: 1064;
         background-color: #FFFFFF;
         width: 100%;
-        /* margin: auto; */
         border: 1px solid red;
         left: 0px;
         padding: 50px 30px 30px 30px;

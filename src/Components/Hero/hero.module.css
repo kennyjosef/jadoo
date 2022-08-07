@@ -1,0 +1,134 @@
+.hero{
+    display: flex;
+    
+}
+.hero_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 130px;
+
+}
+.hero_text h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #DF6951;
+    margin-top: 70px;
+    width: 550px;
+
+
+    
+}
+.hero_text h1{
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+    color: #181E4B;
+    padding:auto;
+    width: 550px;
+    margin-top: 10px;
+
+
+
+}
+.hero_para{
+    width: 550px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5E6282
+}
+.hero_image img{
+    padding-right: 40px;
+    width: 600px;
+}
+.hero_image{
+    background-image: url(../../Assest/Decore.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:fit-content;
+    padding-top: 90px;
+    width: 50%;
+    margin: auto;
+    margin-right: 0;
+    height: 750px;
+    /* border: 1px solid red; */
+      
+}
+.herobtn button{
+    width: 170px;
+    height: 60px;
+    left: 148px;
+    top: 692px;
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+@media screen and (max-width:768px) {
+    .hero{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        border: 1px solid green;
+    }
+    .hero_text{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .hero_text h3{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 0px 20px 0px 20px;
+
+    }
+    .hero_text h1{
+        width: 100%;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 60px;
+        padding:  0px 20px 0px 20px;
+
+    }
+    .hero_para{
+        border: 1px solid red;
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+    .hero_image{
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hero_image img{
+        /* display: block;
+        margin-left: auto;
+        margin-right:auto ; */
+        padding-right: 0px;
+        max-width: 100%;
+    }
+    
+}
+
